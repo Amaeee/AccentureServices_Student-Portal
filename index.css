@@ -1,0 +1,101 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header Section */
+.portal-header {
+  background-color: #c60c30;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.student-info {
+  display: flex;
+  align-items: center;
+}
+
+.student-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.info h1 {
+  margin: 0;
+}
+
+.status {
+  color: lightgreen;
+  font-weight: bold;
+}
+
+/* Navigation */
+.navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.navigation ul li {
+  margin: 0 15px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navigation ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section */
+main {
+  padding: 20px;
+}
+
+.services, .others {
+  margin-bottom: 30px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.service-grid a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  color: #333;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.service-grid a:hover {
+  background-color: #c60c30;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+}
